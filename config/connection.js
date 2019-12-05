@@ -20,3 +20,10 @@ var connection = mysql.createConnection({
   
   // Export connection for our ORM to use.
   module.exports = connection;
+
+  module.exports = {
+    HOST: "us-cdbr-iron-east-02.cleardb.net",
+    USER: "b7e2437887xxxa",
+    PASSWORD: "0200xxx6",
+    DB: "heroku_7643ec736354xxx"
+  };
